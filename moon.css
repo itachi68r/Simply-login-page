@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  padding: 2rem 0 4rem;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, right top, from(white), to(black));
+  background: linear-gradient(to right, white, black);
+}
+
+.section_title {
+  font-size: var(--h1-font-size);
+  color: black;
+  text-align: center;
+}
+
+.section_title .section_subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-3);
+}
+
+.Login-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  background: black;
+  padding: 40px;
+  width: 20rem;
+}
+
+.Login-box h2 {
+  color: white;
+  font-size: 1rem;
+}
+
+.Login-box .box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.Login-box .box .btns {
+  cursor: pointer;
+  border-top: 1px solid #fff;
+  width: 50%;
+}
+
+.code input {
+  padding: 10px 0;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background-color: transparent;
+}
+
+.code input .btns1 {
+  border-top: 1px solid black;
+  width: 4rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=moon.css.map */
